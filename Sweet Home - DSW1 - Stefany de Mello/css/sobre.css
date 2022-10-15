@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+
+a:hover{
+    color: black;
+}
+
+
+body{
+    background-image: url(../fotos/background.png);
+    background-repeat: repeat-y;  
+}
+
+.fonte{
+    font-family:"League Gothic";
+}
+
+.cor2{
+    background-color: #acbd74b9;
+}
+
+a{
+    color: white;
+    font-size: 35px;
+}
+
+.fonte2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .titulo{
+    border-radius: 50px;
+    border-style:inset;
+    border-width: 13px;
+    border-top-color:#acbd74;
+    border-right-color:#acbd74;
+    border-bottom-color: #9e7851;
+    border-left-color:#dbad7f;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 90px;
+    background-color: #e5fd7b28;
+    box-shadow: 0 0 20px #65482a9e ;
+    background: -webkit-gradient(linear, left top, right top, from(#8154249e), to(#e5fd7b28)) no-repeat;
+            background: -moz-linear-gradient(left, #8154249e, #e5fd7b28);
+            filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#8154249e', EndColorStr='#e5fd7b28');     
+
+}
+
+.sombra{
+    text-shadow: 0 0 10px #65482a9e;
+}
+
+.circulo{
+    border-radius: 100px;
+    border-style:inset;
+    border-width: 10px;
+    border-top-color:#acbd74;
+    border-right-color:#acbd74;
+    border-bottom-color:#d4a373;
+    border-left-color:#d4a373;
+
+}
+
+.tam_fonte{
+    font-size: 50px;
+  }
+
+  .cor1{
+    background-color: #d4a37381;
+}
+
+.cor2{
+    background-color: #acbd74b9;
+}
+
+.cor3{
+    background-color: #b08e6f75;
+}
+
+.cor4{
+    background-image:url(../fotos/coracao.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tam_fonte2{
+    font-size: 23px;
+    line-height: 2px;
+  }

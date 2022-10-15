@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+body{
+    background-image: url(../fotos/background.png);
+    background-repeat: repeat-y;  
+}
+
+.fonte{
+    font-family:"League Gothic";
+}
+
+.cor1{
+    background-color: #d4a37381;
+}
+
+.cor2{
+    background-color: #acbd74b9;
+}
+
+.cor3{
+    background-color: #b08e6f75;
+}
+
+.cor4{
+    background-image:url(../fotos/coracao.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card
+{
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;	  
+}
+
+
+  .card:hover{
+    box-shadow:0 0 50px #634217c4;   
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;	 
+}
+
+
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.circulo{
+    border-radius: 100px;
+    border-style:inset;
+    border-width: 10px;
+    border-top-color:#acbd74b9;
+    border-right-color:#acbd74b9;
+    border-bottom-color:#d4a37381;
+    border-left-color:#d4a37381;
+
+}
+
+.tam_fonte{
+    font-size: 100px;
+}
+
+.circulo2{
+    border-radius: 100px;
+    border-style: none ;
+    border-width: 10px;
+
+}
+
+.sombra{
+    text-shadow: 0 0 10px #65482a9e;
+    line-height: 100px;
+    position: relative;
+    top: 140px;
+
+}
+
+.fundo{
+    background-color: #e5fd7b28;
+    box-shadow: 0 0 20px #65482a9e ;
+    background: -webkit-gradient(linear, left top, right top, from(#8154249e), to(#e5fd7b28)) no-repeat;
+            background: -moz-linear-gradient(left, #8154249e, #e5fd7b28);
+            filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#8154249e', EndColorStr='#e5fd7b28');     
+    
+}
+
+
+
+
